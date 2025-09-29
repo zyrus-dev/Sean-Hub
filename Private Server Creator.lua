@@ -1,2 +1,375 @@
--- Obfuscated Lua
-loadstring(game:HttpGet('data:text/plain;base64,bG9jYWwgdmFyX3VzMXJyZCA9IGdhbWU6R2V0U2VydmljZSgiQ29sbGVjdGlvblNlcnZpY2UiKTsKCi0tIFRhYmVsYSBHMkwgcGFyYSBhcm1hemVuYXIgYXMgcmVmZXLqbmNpYXMgYW9zIGVsZW1lbnRvcyBkYSBHVUkKbG9jYWwgdmFyX2lrejZ3OCA9IHt9OwoKLS0gMS4gQ3JpYSBlIGNvbmZpZ3VyYSBvIFNjcmVlbkd1aSAoVGVsYSBwcmluY2lwYWwpCkcyTFsiU2NyZWVuR3VpXzEiXSA9IEluc3RhbmNlLm5ldygiU2NyZWVuR3VpIiwgZ2FtZTpHZXRTZXJ2aWNlKCJQbGF5ZXJzIikuTG9jYWxQbGF5ZXI6V2FpdEZvckNoaWxkKCJQbGF5ZXJHdWkiKSk7CkcyTFsiU2NyZWVuR3VpXzEiXVsiWkluZGV4QmVoYXZpb3IiXSA9IEVudW0uWkluZGV4QmVoYXZpb3IuU2libGluZzsKCkNvbGxlY3Rpb25TZXJ2aWNlOkFkZFRhZyhHMkxbIlNjcmVlbkd1aV8xIl0sIFtbbWFpbl1dKTsKCi0tIDIuIENyaWEgZSBjb25maWd1cmEgbyBGcmFtZSBwcmluY2lwYWwgKEZ1bmRvIHByZXRvKQpHMkxbIkZyYW1lXzIiXSA9IEluc3RhbmNlLm5ldygiRnJhbWUiLCBHMkxbIlNjcmVlbkd1aV8xIl0pOwpHMkxbIkZyYW1lXzIiXVsiQm9yZGVyU2l6ZVBpeGVsIl0gPSAwOwpHMkxbIkZyYW1lXzIiXVsiQmFja2dyb3VuZENvbG9yMyJdID0gQ29sb3IzLmZyb21SR0IoMCwgMCwgMCk7CkcyTFsiRnJhbWVfMiJdWyJTaXplIl0gPSBVRGltMi5uZXcoMC4zNzk5OCwgMCwgMC40NTY2NywgMCk7CkcyTFsiRnJhbWVfMiJdWyJQb3NpdGlvbiJdID0gVURpbTIubmV3KDAuMzA4NTYsIDAsIDAuMjE3NDYsIDApOwoKCkcyTFsiVUlDb3JuZXJfMyJdID0gSW5zdGFuY2UubmV3KCJVSUNvcm5lciIsIEcyTFsiRnJhbWVfMiJdKTsKCgoKLS0gMy4gQ3JpYSBlIGNvbmZpZ3VyYSBvIEZyYW1lIGRvIHTtdHVsbyAoRnVuZG8gYnJhbmNvKQpHMkxbIkZyYW1lXzQiXSA9IEluc3RhbmNlLm5ldygiRnJhbWUiLCBHMkxbIkZyYW1lXzIiXSk7CkcyTFsiRnJhbWVfNCJdWyJCb3JkZXJTaXplUGl4ZWwiXSA9IDA7CkcyTFsiRnJhbWVfNCJdWyJCYWNrZ3JvdW5kQ29sb3IzIl0gPSBDb2xvcjMuZnJvbVJHQigyNTUsIDI1NSwgMjU1KTsKRzJMWyJGcmFtZV80Il1bIlNpemUiXSA9IFVEaW0yLm5ldygxLCAwLCAwLjI4NTcxLCAwKTsKCgpHMkxbIlVJQ29ybmVyXzUiXSA9IEluc3RhbmNlLm5ldygiVUlDb3JuZXIiLCBHMkxbIkZyYW1lXzQiXSk7CgoKLS0gNC4gQ3JpYSBlIGNvbmZpZ3VyYSBvIFRleHRMYWJlbCBkbyB07XR1bG8KRzJMWyJUZXh0TGFiZWxfNiJdID0gSW5zdGFuY2UubmV3KCJUZXh0TGFiZWwiLCBHMkxbIkZyYW1lXzQiXSk7CkcyTFsiVGV4dExhYmVsXzYiXVsiVGV4dFdyYXBwZWQiXSA9IHRydWU7CkcyTFsiVGV4dExhYmVsXzYiXVsiQm9yZGVyU2l6ZVBpeGVsIl0gPSAwOwpHMkxbIlRleHRMYWJlbF82Il1bIlRleHRTaXplIl0gPSAxNDsKRzJMWyJUZXh0TGFiZWxfNiJdWyJCYWNrZ3JvdW5kQ29sb3IzIl0gPSBDb2xvcjMuZnJvbVJHQigyNTUsIDI1NSwgMjU1KTsKRzJMWyJUZXh0TGFiZWxfNiJdWyJGb250RmFjZSJdID0gRm9udC5uZXcoW1tyYnhhc3NldDovL2ZvbnRzL2ZhbWlsaWVzL0p1cmEuanNvbl1dLCBFbnVtLkZvbnRXZWlnaHQuUmVndWxhciwgRW51bS5Gb250U3R5bGUuTm9ybWFsKTsKRzJMWyJUZXh0TGFiZWxfNiJdWyJTaXplIl0gPSBVRGltMi5uZXcoMC45MDIyNiwgMCwgMC44ODg4OSwgMCk7CkcyTFsiVGV4dExhYmVsXzYiXVsiVGV4dCJdID0gW1tTZWFuIFNjcmlwdHMgLSBTZXJ2ZXIgVmlwIENyZWF0b3JdXTsKRzJMWyJUZXh0TGFiZWxfNiJdWyJQb3NpdGlvbiJdID0gVURpbTIubmV3KDAuMDYwMTUsIDAsIDAuMDU1NTYsIDApOwoKCi0tIDUuIENyaWEgZSBjb25maWd1cmEgbyBib3TjbyBDUkVBVEUvRU5URVIKRzJMWyJDUkVBVEUvRU5URVJfNyJdID0gSW5zdGFuY2UubmV3KCJUZXh0QnV0dG9uIiwgRzJMWyJGcmFtZV8yIl0pOwpHMkxbIkNSRUFURS9FTlRFUl83Il1bIkJvcmRlclNpemVQaXhlbCJdID0gMDsKRzJMWyJDUkVBVEUvRU5URVJfNyJdWyJUZXh0U2l6ZSJdID0gMTY7CkcyTFsiQ1JFQVRFL0VOVEVSXzciXVsiQmFja2dyb3VuZENvbG9yMyJdID0gQ29sb3IzLmZyb21SR0IoMjU1LCAyNTUsIDI1NSk7CkcyTFsiQ1JFQVRFL0VOVEVSXzciXVsiRm9udEZhY2UiXSA9IEZvbnQubmV3KFtbcmJ4YXNzZXQ6Ly9mb250cy9mYW1pbGllcy9KdXJhLmpzb25dXSwgRW51bS5Gb250V2VpZ2h0LlJlZ3VsYXIsIEVudW0uRm9udFN0eWxlLk5vcm1hbCk7CkcyTFsiQ1JFQVRFL0VOVEVSXzciXVsiU2l6ZSJdID0gVURpbTIubmV3KDAuNTQ4ODcsIDAsIDAuMjg1NzEsIDApOwpHMkxbIkNSRUFURS9FTlRFUl83Il1bIlRleHQiXSA9IFtbQ1JFQVRFXV07CkcyTFsiQ1JFQVRFL0VOVEVSXzciXVsiTmFtZSJdID0gW1tDUkVBVEUvRU5URVJdXTsKRzJMWyJDUkVBVEUvRU5URVJfNyJdWyJQb3NpdGlvbiJdID0gVURpbTIubmV3KDAuMjI1NTYsIDAsIDAuNDYwMzIsIDApOwoKCkcyTFsiVUlDb3JuZXJfOCJdID0gSW5zdGFuY2UubmV3KCJVSUNvcm5lciIsIEcyTFsiQ1JFQVRFL0VOVEVSXzciXSk7CgoKLS0gNi4gQ3JpYSBlIGNvbmZpZ3VyYSBhIHJlc3RyaefjbyBkZSBhc3BlY3RvCkcyTFsiVUlBc3BlY3RSYXRpb0NvbnN0cmFpbnRfOSJdID0gSW5zdGFuY2UubmV3KCJVSUFzcGVjdFJhdGlvQ29uc3RyYWludCIsIEcyTFsiRnJhbWVfMiJdKTsKRzJMWyJVSUFzcGVjdFJhdGlvQ29uc3RyYWludF85Il1bIkFzcGVjdFJhdGlvIl0gPSAyLjExMTExOwoKCi0tID09PT09PT09PT09PT09PT09PT09IEzTR0lDQSBETyBCT1TDTyAoU0VBTiBTQ1JJUFRTKSA9PT09PT09PT09PT09PT09PT09PQoKbG9jYWwgdmFyX2IzZ3E1bCA9IEcyTFsiQ1JFQVRFL0VOVEVSXzciXQpsb2NhbCB2YXJfOGN0cGtqID0gZ2FtZTpHZXRTZXJ2aWNlKCJTdGFydGVyR3VpIikKCkJ1dHRvbi5Nb3VzZUJ1dHRvbjFDbGljazpDb25uZWN0KGZ1bmN0aW9uKCkKICAgIAogICAgaWYgQnV0dG9uLlRleHQgPT0gIkNSRUFURSIgdGhlbgogICAgICAgIAogICAgICAgIC0tIDEuIEVudmlhIGEgbm90aWZpY2Hn428gIkNyaWFuZG8uLiIKICAgICAgICBTdGFydGVyR3VpOlNldENvcmUoIlNlbmROb3RpZmljYXRpb24iLCB7CiAgICAgICAgICAgIFRpdGxlID0gIlNlYW4gU2NyaXB0cyI7CiAgICAgICAgICAgIFRleHQgPSAiQ3JpYW5kby4uIjsKICAgICAgICAgICAgRHVyYXRpb24gPSA1OyAKICAgICAgICB9KQogICAgICAgIAogICAgICAgIC0tIDIuIEVzcGVyYSA1IHNlZ3VuZG9zCiAgICAgICAgd2FpdCg1KQogICAgICAgIAogICAgICAgIC0tIDMuIEVudmlhIGEgbm90aWZpY2Hn428gIlNlcnZlciBDcmlhZG8uLiIKICAgICAgICBTdGFydGVyR3VpOlNldENvcmUoIlNlbmROb3RpZmljYXRpb24iLCB7CiAgICAgICAgICAgIFRpdGxlID0gIlNlYW4gU2NyaXB0cyI7CiAgICAgICAgICAgIFRleHQgPSAiU2VydmVyIENyaWFkby4uIjsKICAgICAgICAgICAgRHVyYXRpb24gPSA1OwogICAgICAgIH0pCiAgICAgICAgCiAgICAgICAgLS0gNC4gTXVkYSBvIHRleHRvIGRvIGJvdONvCiAgICAgICAgQnV0dG9uLlRleHQgPSAiVGVsZXBvcnRhciIKICAgICAgICAKICAgIGVsc2VpZiBCdXR0b24uVGV4dCA9PSAiVGVsZXBvcnRhciIgdGhlbgogICAgICAgIAogICAgICAgIC0tIEHn428gZG8gYm90428gIlRlbGVwb3J0YSIgKFdhcm4pCiAgICAgICAgCiAgICAgICAgLS0gMS4gRW52aWEgYSBub3RpZmljYefjbyAiVGVsZXBvcnRhbmRvLi4iCiAgICAgICAgU3RhcnRlckd1aTpTZXRDb3JlKCJTZW5kTm90aWZpY2F0aW9uIiwgewogICAgICAgICAgICBUaXRsZSA9ICJTZWFuIFNjcmlwdHMiOwogICAgICAgICAgICBUZXh0ID0gIlRlbGVwb3J0YW5kby4uIjsKICAgICAgICAgICAgRHVyYXRpb24gPSA1OwogICAgICAgIH0pCgogICAgICAgIC0tIDIuIEVzcGVyYSAyIHNlZ3VuZG9zCiAgICAgICAgd2FpdCgyKQogICAgICAgIAogICAgICAgIC0tIDMuIEV4ZWN1dGEgbyBjb21hbmRvIHdhcm4oKSBzb2xpY2l0YWRvCiAgICAgICAgLS1bWwpTRUFOIFNDUklQVFMgLSBDUkVBVEUgU0VSVkVSIFZJUCBbUFJFTUlVTV0KXV0KCmdhbWU6R2V0U2VydmljZSgiU3RhcnRlckd1aSIpOlNldENvcmUoIlNlbmROb3RpZmljYXRpb24iLCB7CiAgICBUaXRsZSA9ICJTZWFuIFNjcmlwdHMiOwogICAgVGV4dCA9ICJUZWxlcG9ydGFkbyAhISEiOwogICAgRHVyYXRpb24gPSA1Owp9KQoKd2FpdCgyKQpsb2NhbCB2YXJfN2QycHFpID0ge30KbG9jYWwgdmFyX2M1b2ZhYyA9IHt9CmxvY2FsIHZhcl9sN2J3dXQgPSB7fQpkbwoJZG8KCQlsb2NhbCB2YXJfMzFlc3hrID0gewoJCQkzNjE0MDkwMzYwLAoJCQkzOTA1NDAyNzEwLAoJCQk2MDYxMDU4MTksCgkJCTMyNTA0NDE5NjYsCgkJCTQxMTg1NDgzOTksCgkJCTEyMDAwODA0MjYsCgkJCTI4MjE3MzU5NTUsCgkJCTQyNDkyNjEzMTMsCgkJCTE3NzAwMzU0MTYsCgkJCTIzMzY1NTI4NzksCgkJCTQyOTQ5MjUyMzMsCgkJCTIzMDQ1NjMxMzQsCgkJCTE4MDQ2MDM2ODIsCgkJCTQyNTQ2MjYxOTUsCgkJCTI3OTI5NjUwMDYsCgkJCTEyMzY1MzUzMjksCgkJCTQxMjkxNzA3ODYsCgkJCTMyMjU0NjU2NjQsCgkJCTY0MzcxNzcxMywKCQkJMzkyMTA2OTk5NCwKCQkJMzU5MzQwODYwNSwKCQkJMzgwMTYwODMsCgkJCTM2MzQ0ODg5NjEsCgkJCTM4ODk0Mjk0NDgsCgkJCTU2ODQ0NjQzOCwKCQkJMzI3NTE2MzYwNiwKCQkJNDEwNzYwMzMzNSwKCQkJMTE2MzUzMTUwMSwKCQkJMjg1MDI4NTgyOSwKCQkJNDI0MzU2MzUxMiwKCQkJMTczNTMyODQ3MywKCQkJMjM2ODM1OTU2MiwKCQkJNDI5NDU4ODczOCwKCQkJMjI3MjM5MjgzMywKCQkJMTgzOTAzMDU2MiwKCQkJNDI1OTY1Nzc0MCwKCQkJMjc2Mzk3NTIzNiwKCQkJMTI3Mjg5MzM1MywKCQkJNDEzOTQ2OTY2NCwKCQkJMzIwMDIzNjY1NiwKCQkJNjgxMjc5MTc0LAoJCQkzOTM2NDMwMDc0LAoJCQkzNTcyNDQ1MzE3LAoJCQk3NjAyOTE4OSwKCQkJMzY1NDYwMjgwOSwKCQkJMzg3MzE1MTQ2MSwKCQkJNTMwNzQyNTIwLAoJCQkzMjk5NjI4NjQ1LAoJCQk0MDk2MzM2NDUyLAoJCQkxMTI2ODkxNDE1LAoJCQkyODc4NjEyMzkxLAoJCQk0MjM3NTMzMjQxLAoJCQkxNzAwNDg1NTcxLAoJCQkyMzk5OTgwNjkwLAoJCQk0MjkzOTE1NzczLAoJCQkyMjQwMDQ0NDk3LAoJCQkxODczMzEzMzU5LAoJCQk0MjY0MzU1NTUyLAoJCQkyNzM0NzY4OTE2LAoJCQkxMzA5MTUxNjQ5LAoJCQk0MTQ5NDQ0MjI2LAoJCQkzMTc0NzU2OTE3LAoJCQk3MTg3ODcyNTksCgkJCTM5NTE0ODE3NDUKCQl9CgkJbG9jYWwgdmFyX2Y1Z2hhdiBhZGQoYSwgYikKCQkJbG9jYWwgdmFyX280azVqaSA9IGJpdDMyLmJhbmQoYSwgNjU1MzUpICsgYml0MzIuYmFuZChiLCA2NTUzNSkKCQkJbG9jYWwgdmFyX3lnbHdqbCA9IGJpdDMyLnJzaGlmdChhLCAxNikgKyBiaXQzMi5yc2hpZnQoYiwgMTYpICsgYml0MzIucnNoaWZ0KGxzdywgMTYpCgkJCXJldHVybiBiaXQzMi5ib3IoYml0MzIubHNoaWZ0KG1zdywgMTYpLCBiaXQzMi5iYW5kKGxzdywgNjU1MzUpKQoJCWVuZDsKCQlsb2NhbCB2YXJfNnZvZm1pIHJvbCh4LCBuKQoJCQlyZXR1cm4gYml0MzIuYm9yKGJpdDMyLmxzaGlmdCh4LCBuKSwgYml0MzIucnNoaWZ0KHgsIDMyIC0gbikpCgkJZW5kOwoJCWxvY2FsIHZhcl90aXF0Z3EgRih4LCB5LCB6KQoJCQlyZXR1cm4gYml0MzIuYm9yKGJpdDMyLmJhbmQoeCwgeSksIGJpdDMyLmJhbmQoYml0MzIuYm5vdCh4KSwgeikpCgkJZW5kOwoJCWxvY2FsIHZhcl9iNXo2OXogRyh4LCB5LCB6KQoJCQlyZXR1cm4gYml0MzIuYm9yKGJpdDMyLmJhbmQoeCwgeiksIGJpdDMyLmJhbmQoeSwgYml0MzIuYm5vdCh6KSkpCgkJZW5kOwoJCWxvY2FsIHZhcl9nazZnN3IgSCh4LCB5LCB6KQoJCQlyZXR1cm4gYml0MzIuYnhvcih4LCBiaXQzMi5ieG9yKHksIHopKQoJCWVuZDsKCQlsb2NhbCB2YXJfNDFyaGpjIEkoeCwgeSwgeikKCQkJcmV0dXJuIGJpdDMyLmJ4b3IoeSwgYml0MzIuYm9yKHgsIGJpdDMyLmJub3QoeikpKQoJCWVuZDsKCQlmdW5jdGlvbiBtZDUuc3VtKG1lc3NhZ2UpCgkJCWxvY2FsIHZhcl9lc2Y5MGksIGIsIGMsIGQgPSAxNzMyNTg0MTkzLCA0MDIzMjMzNDE3LCAyNTYyMzgzMTAyLCAyNzE3MzM4Nzg7CgkJCWxvY2FsIHZhcl93dmVlMG8gPSAjbWVzc2FnZTsKCQkJbG9jYWwgdmFyXzQweGcybyA9IG1lc3NhZ2UgLi4gIlwxMjgiCgkJCXdoaWxlICNwYWRkZWRfbWVzc2FnZSAlIDY0IH49IDU2IGRvCgkJCQlwYWRkZWRfbWVzc2FnZSA9IHBhZGRlZF9tZXNzYWdlIC4uICJcMCIKCQkJZW5kOwoJCQlsb2NhbCB2YXJfZDZ2Mm1oID0gIiIKCQkJbG9jYWwgdmFyX3FrN25sZyA9IG1lc3NhZ2VfbGVuICogODsKCQkJZm9yIGkgPSAwLCA3IGRvCgkJCQlsZW5fYnl0ZXMgLi49IHN0cmluZy5jaGFyKGJpdDMyLmJhbmQoYml0MzIucnNoaWZ0KGxlbl9iaXRzLCBpICogOCksIDI1NSkpCgkJCWVuZDsKCQkJcGFkZGVkX21lc3NhZ2UgLi49IGxlbl9ieXRlczsKCQkJZm9yIGkgPSAxLCAjcGFkZGVkX21lc3NhZ2UsIDY0IGRvCgkJCQlsb2NhbCB2YXJfOXo3OXAyID0gcGFkZGVkX21lc3NhZ2U6c3ViKGksIGkgKyA2MykKCQkJCWxvY2FsIHZhcl9mNnhkcHkgPSB7fQoJCQkJZm9yIGogPSAwLCAxNSBkbwoJCQkJCWxvY2FsIHZhcl9ub2JnYWYsIGIyLCBiMywgYjQgPSBjaHVuazpieXRlKGogKiA0ICsgMSwgaiAqIDQgKyA0KQoJCQkJCVhbal0gPSBiaXQzMi5ib3IoYjEsIGJpdDMyLmxzaGlmdChiMiwgOCksIGJpdDMyLmxzaGlmdChiMywgMTYpLCBiaXQzMi5sc2hpZnQoYjQsIDI0KSkKCQkJCWVuZDsKCQkJCWxvY2FsIHZhcl9jZnR4cnQsIGJiLCBjYywgZGQgPSBhLCBiLCBjLCBkOwoJCQkJbG9jYWwgdmFyX2xtM25kaCA9IHsKCQkJCQk3LAoJCQkJCTEyLAoJCQkJCTE3LAoJCQkJCTIyLAoJCQkJCTUsCgkJCQkJOSwKCQkJCQkxNCwKCQkJCQkyMCwKCQkJCQk0LAoJCQkJCTExLAoJCQkJCTE2LAoJCQkJCTIzLAoJCQkJCTYsCgkJCQkJMTAsCgkJCQkJMTUsCgkJCQkJMjEKCQkJCX0KCQkJCWZvciBqID0gMCwgNjMgZG8KCQkJCQlsb2NhbCB2YXJfeGNtb3lyLCBrLCBzaGlmdF9pbmRleDsKCQkJCQlpZiBqIDwgMTYgdGhlbgoJCQkJCQlmID0gRihiLCBjLCBkKQoJCQkJCQlrID0gajsKCQkJCQkJc2hpZnRfaW5kZXggPSBqICUgNAoJCQkJCWVsc2VpZiBqIDwgMzIgdGhlbgoJCQkJCQlmID0gRyhiLCBjLCBkKQoJCQkJCQlrID0gKDEgKyA1ICogaikgJSAxNjsKCQkJCQkJc2hpZnRfaW5kZXggPSA0ICsgKGogJSA0KQoJCQkJCWVsc2VpZiBqIDwgNDggdGhlbgoJCQkJCQlmID0gSChiLCBjLCBkKQoJCQkJCQlrID0gKDUgKyAzICogaikgJSAxNjsKCQkJCQkJc2hpZnRfaW5kZXggPSA4ICsgKGogJSA0KQoJCQkJCWVsc2UKCQkJCQkJZiA9IEkoYiwgYywgZCkKCQkJCQkJayA9ICg3ICogaikgJSAxNjsKCQkJCQkJc2hpZnRfaW5kZXggPSAxMiArIChqICUgNCkKCQkJCQllbmQ7CgkJCQkJbG9jYWwgdmFyX291YzJjdiA9IGFkZChhLCBmKQoJCQkJCXRlbXAgPSBhZGQodGVtcCwgWFtrXSkKCQkJCQl0ZW1wID0gYWRkKHRlbXAsIFRbaiArIDFdKQoJCQkJCXRlbXAgPSByb2wodGVtcCwgc1tzaGlmdF9pbmRleCArIDFdKQoJCQkJCWxvY2FsIHZhcl95cmxtaHUgPSBhZGQoYiwgdGVtcCkKCQkJCQlhLCBiLCBjLCBkID0gZCwgbmV3X2IsIGIsIGMKCQkJCWVuZDsKCQkJCWEgPSBhZGQoYSwgYWEpCgkJCQliID0gYWRkKGIsIGJiKQoJCQkJYyA9IGFkZChjLCBjYykKCQkJCWQgPSBhZGQoZCwgZGQpCgkJCWVuZDsKCQkJbG9jYWwgdmFyXzhqbXZqOCB0b19sZV9oZXgobikKCQkJCWxvY2FsIHZhcl9uMmQzeWwgPSAiIgoJCQkJZm9yIGkgPSAwLCAzIGRvCgkJCQkJcyAuLj0gc3RyaW5nLmNoYXIoYml0MzIuYmFuZChiaXQzMi5yc2hpZnQobiwgaSAqIDgpLCAyNTUpKQoJCQkJZW5kOwoJCQkJcmV0dXJuIHMKCQkJZW5kOwoJCQlyZXR1cm4gdG9fbGVfaGV4KGEpIC4uIHRvX2xlX2hleChiKSAuLiB0b19sZV9oZXgoYykgLi4gdG9fbGVfaGV4KGQpCgkJZW5kCgllbmQ7CglkbwoJCWZ1bmN0aW9uIGhtYWMubmV3KGtleSwgbXNnLCBoYXNoX2Z1bmMpCgkJCWlmICNrZXkgPiA2NCB0aGVuCgkJCQlrZXkgPSBoYXNoX2Z1bmMoa2V5KQoJCQllbmQ7CgkJCWxvY2FsIHZhcl92Njhvbm4gPSAiIgoJCQlsb2NhbCB2YXJfYmhkaTFxID0gIiIKCQkJZm9yIGkgPSAxLCA2NCBkbwoJCQkJbG9jYWwgdmFyXzBrazFtNyA9IChpIDw9ICNrZXkgYW5kIHN0cmluZy5ieXRlKGtleSwgaSkpIG9yIDA7CgkJCQlvX2tleV9wYWQgLi49IHN0cmluZy5jaGFyKGJpdDMyLmJ4b3IoYnl0ZSwgOTIpKQoJCQkJaV9rZXlfcGFkIC4uPSBzdHJpbmcuY2hhcihiaXQzMi5ieG9yKGJ5dGUsIDU0KSkKCQkJZW5kOwoJCQlyZXR1cm4gaGFzaF9mdW5jKG9fa2V5X3BhZCAuLiBoYXNoX2Z1bmMoaV9rZXlfcGFkIC4uIG1zZykpCgkJZW5kCgllbmQ7CglkbwoJCWxvY2FsIHZhcl9obWNpbDAgPSAiQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLyIKCQlmdW5jdGlvbiBiYXNlNjQuZW5jb2RlKGRhdGEpCgkJCXJldHVybiAoKGRhdGE6Z3N1YigiLiIsIGZ1bmN0aW9uKHgpCgkJCQlsb2NhbCB2YXJfdnJvdTYzLCBiX3ZhbCA9ICIiLCB4OmJ5dGUoKQoJCQkJZm9yIGkgPSA4LCAxLCAtMSBkbwoJCQkJCXIgPSByIC4uIChiX3ZhbCAlIDIgXiBpIC0gYl92YWwgJSAyIF4gKGkgLSAxKSA+IDAgYW5kICIxIiBvciAiMCIpCgkJCQllbmQ7CgkJCQlyZXR1cm4gcgoJCQllbmQpIC4uICIwMDAwIik6Z3N1YigiJWQlZCVkPyVkPyVkPyVkPyIsIGZ1bmN0aW9uKHgpCgkJCQlpZiAjeCA8IDYgdGhlbgoJCQkJCXJldHVybiAiIgoJCQkJZW5kOwoJCQkJbG9jYWwgdmFyX2M1bWtncCA9IDA7CgkJCQlmb3IgaSA9IDEsIDYgZG8KCQkJCQljID0gYyArICh4OnN1YihpLCBpKSA9PSAiMSIgYW5kIDIgXiAoNiAtIGkpIG9yIDApCgkJCQllbmQ7CgkJCQlyZXR1cm4gYjpzdWIoYyArIDEsIGMgKyAxKQoJCQllbmQpIC4uICh7CgkJCQkiIiwKCQkJCSI9PSIsCgkJCQkiPSIKCQkJfSlbI2RhdGEgJSAzICsgMV0pCgkJZW5kCgllbmQKZW5kOwpsb2NhbCB2YXJfdDA1aGJqIEdlbmVyYXRlUmVzZXJ2ZWRTZXJ2ZXJDb2RlKHBsYWNlSWQpCglsb2NhbCB2YXJfeHI3c3cwID0ge30KCWZvciBpID0gMSwgMTYgZG8KCQl1dWlkW2ldID0gbWF0aC5yYW5kb20oMCwgMjU1KQoJZW5kOwoJdXVpZFs3XSA9IGJpdDMyLmJvcihiaXQzMi5iYW5kKHV1aWRbN10sIDE1KSwgNjQpCgl1dWlkWzldID0gYml0MzIuYm9yKGJpdDMyLmJhbmQodXVpZFs5XSwgNjMpLCAxMjgpCglsb2NhbCB2YXJfbGVxdzRnID0gIiIKCWZvciBpID0gMSwgMTYgZG8KCQlmaXJzdEJ5dGVzIC4uPSBzdHJpbmcuY2hhcih1dWlkW2ldKQoJZW5kOwoJbG9jYWwgdmFyX3ZmZWF3eCA9IHN0cmluZy5mb3JtYXQoIiUwMnglMDJ4JTAyeCUwMngtJTAyeCUwMngtJTAyeCUwMngtJTAyeCUwMngtJTAyeCUwMnglMDJ4JTAyeCUwMnglMDJ4IiwgdGFibGUudW5wYWNrKHV1aWQpKQoJbG9jYWwgdmFyX3Y5Nm94OCA9ICIiCglsb2NhbCB2YXJfMW40YmcxID0gcGxhY2VJZDsKCWZvciBfID0gMSwgOCBkbwoJCXBsYWNlSWRCeXRlcyAuLj0gc3RyaW5nLmNoYXIocElkUmVjICUgMjU2KQoJCXBJZFJlYyA9IG1hdGguZmxvb3IocElkUmVjIC8gMjU2KQoJZW5kOwoJbG9jYWwgdmFyX3U4NmJ0NyA9IGZpcnN0Qnl0ZXMgLi4gcGxhY2VJZEJ5dGVzOwoJbG9jYWwgdmFyX2h6anFiNyA9ICJlNFluOGNrYkNKdHcyc3Y3cW1iZyIKCWxvY2FsIHZhcl83eDhoamkgPSBobWFjLm5ldyhTVVBFUkRVUEVSU0VDUkVUUk9CTE9YS0VZVEhBVFRIRVlESUROVENIQU5HRUVWRVJTSU5DRUZPUkVWRVIsIGNvbnRlbnQsIG1kNS5zdW0pCglsb2NhbCB2YXJfM2VranZmID0gc2lnbmF0dXJlIC4uIGNvbnRlbnQ7Cglsb2NhbCB2YXJfa3J6c2lnID0gYmFzZTY0LmVuY29kZShhY2Nlc3NDb2RlQnl0ZXMpCglhY2Nlc3NDb2RlID0gYWNjZXNzQ29kZTpnc3ViKCIrIiwgIi0iKTpnc3ViKCIvIiwgIl8iKQoJbG9jYWwgdmFyX2dhNnJzYyA9IDA7CglhY2Nlc3NDb2RlLCBfID0gYWNjZXNzQ29kZTpnc3ViKCI9IiwgZnVuY3Rpb24oKQoJCXBkZGluZyArPSAxOwoJCXJldHVybiAiIgoJZW5kKQoJYWNjZXNzQ29kZSAuLj0gdG9zdHJpbmcocGRkaW5nKQoJcmV0dXJuIGFjY2Vzc0NvZGUsIGdhbWVDb2RlCmVuZDsKbG9jYWwgdmFyX2ZsMWM4ZSwgXyA9IEdlbmVyYXRlUmVzZXJ2ZWRTZXJ2ZXJDb2RlKGdhbWUuUGxhY2VJZCkKc2V0Y2xpcGJvYXJkKGBnYW1lLlJvYmxveFJlcGxpY2F0ZWRTdG9yYWdlLkNvbnRhY3RMaXN0SXJpc0ludml0ZVRlbGVwb3J0OkZpcmVTZXJ2ZXIoe2dhbWUuUGxhY2VJZH0sICIiLCAie2FjY2Vzc0NvZGV9IilgKQpnYW1lLlJvYmxveFJlcGxpY2F0ZWRTdG9yYWdlLkNvbnRhY3RMaXN0SXJpc0ludml0ZVRlbGVwb3J0OkZpcmVTZXJ2ZXIoZ2FtZS5QbGFjZUlkLCAiIiwgYWNjZXNzQ29kZSkKICAgICAgICAKICAgIGVuZAplbmQpCgotLSBJTVBPUlRBTlRFOiBBIHN1YSBHVUkgb3JpZ2luYWwgdGVybWluYXZhIGNvbSAicmV0dXJuIEcyTFsiU2NyZWVuR3VpXzEiXSwgcmVxdWlyZTsiLgotLSBFbSB1bSBleGVjdXRvciwgcHJlY2lzYW1vcyBnYXJhbnRpciBxdWUgbyBTY3JlZW5HdWkgZXN0ZWphIG5vIGxvY2FsIHZhcl80eGl2NzYsIG8gcXVlIGrhCi0tIGVzdOEgZGVmaW5pZG8gbmEgbGluaGEgMTA6IEluc3RhbmNlLm5ldygiU2NyZWVuR3VpIiwgZ2FtZTpHZXRTZXJ2aWNlKCJQbGF5ZXJzIikuTG9jYWxQbGF5ZXI6V2FpdEZvckNoaWxkKCJQbGF5ZXJHdWkiKSkuCi0tIEFvIGV4ZWN1dGFyIGVzdGUgc2NyaXB0IGNvbXBsZXRvIG5vIHNldSBleGVjdXRvciwgYSBHVUkgc2Vy4SBjcmlhZGEgZSBhcGFyZWNlcuEgbmEgdGVsYS4='))()
+local CollectionService = game:GetService("CollectionService");
+
+-- Tabela G2L para armazenar as referências aos elementos da GUI ( SE ROUBAR O SCRIPT VAI SER DESCOBERTO !, NÃO DEU PARA OBSFUCAR 
+local G2L = {};
+
+-- 1. Cria e configura o ScreenGui (Tela principal)
+G2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+CollectionService:AddTag(G2L["ScreenGui_1"], [[main]]);
+
+-- 2. Cria e configura o Frame principal (Fundo preto)
+G2L["Frame_2"] = Instance.new("Frame", G2L["ScreenGui_1"]);
+G2L["Frame_2"]["BorderSizePixel"] = 0;
+G2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["Frame_2"]["Size"] = UDim2.new(0.37998, 0, 0.45667, 0);
+G2L["Frame_2"]["Position"] = UDim2.new(0.30856, 0, 0.21746, 0);
+
+
+G2L["UICorner_3"] = Instance.new("UICorner", G2L["Frame_2"]);
+
+
+
+-- 3. Cria e configura o Frame do título (Fundo branco)
+G2L["Frame_4"] = Instance.new("Frame", G2L["Frame_2"]);
+G2L["Frame_4"]["BorderSizePixel"] = 0;
+G2L["Frame_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Frame_4"]["Size"] = UDim2.new(1, 0, 0.28571, 0);
+
+
+G2L["UICorner_5"] = Instance.new("UICorner", G2L["Frame_4"]);
+
+
+-- 4. Cria e configura o TextLabel do título
+G2L["TextLabel_6"] = Instance.new("TextLabel", G2L["Frame_4"]);
+G2L["TextLabel_6"]["TextWrapped"] = true;
+G2L["TextLabel_6"]["BorderSizePixel"] = 0;
+G2L["TextLabel_6"]["TextSize"] = 14;
+G2L["TextLabel_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextLabel_6"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["TextLabel_6"]["Size"] = UDim2.new(0.90226, 0, 0.88889, 0);
+G2L["TextLabel_6"]["Text"] = [[Sean Scripts - Server Vip Creator]];
+G2L["TextLabel_6"]["Position"] = UDim2.new(0.06015, 0, 0.05556, 0);
+
+
+-- 5. Cria e configura o botão CREATE/ENTER
+G2L["CREATE/ENTER_7"] = Instance.new("TextButton", G2L["Frame_2"]);
+G2L["CREATE/ENTER_7"]["BorderSizePixel"] = 0;
+G2L["CREATE/ENTER_7"]["TextSize"] = 16;
+G2L["CREATE/ENTER_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["CREATE/ENTER_7"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["CREATE/ENTER_7"]["Size"] = UDim2.new(0.54887, 0, 0.28571, 0);
+G2L["CREATE/ENTER_7"]["Text"] = [[CREATE]];
+G2L["CREATE/ENTER_7"]["Name"] = [[CREATE/ENTER]];
+G2L["CREATE/ENTER_7"]["Position"] = UDim2.new(0.22556, 0, 0.46032, 0);
+
+
+G2L["UICorner_8"] = Instance.new("UICorner", G2L["CREATE/ENTER_7"]);
+
+
+-- 6. Cria e configura a restrição de aspecto
+G2L["UIAspectRatioConstraint_9"] = Instance.new("UIAspectRatioConstraint", G2L["Frame_2"]);
+G2L["UIAspectRatioConstraint_9"]["AspectRatio"] = 2.11111;
+
+
+-- ==================== LÓGICA DO BOTÃO (SEAN SCRIPTS) ====================
+
+local Button = G2L["CREATE/ENTER_7"]
+local StarterGui = game:GetService("StarterGui")
+
+Button.MouseButton1Click:Connect(function()
+    
+    if Button.Text == "CREATE" then
+        
+        -- 1. Envia a notificação "Criando.."
+        StarterGui:SetCore("SendNotification", {
+            Title = "Sean Scripts";
+            Text = "Criando..";
+            Duration = 5; 
+        })
+        
+        -- 2. Espera 5 segundos
+        wait(5)
+        
+        -- 3. Envia a notificação "Server Criado.."
+        StarterGui:SetCore("SendNotification", {
+            Title = "Sean Scripts";
+            Text = "Server Criado..";
+            Duration = 5;
+        })
+        
+        -- 4. Muda o texto do botão
+        Button.Text = "Teleportar"
+        
+    elseif Button.Text == "Teleportar" then
+        
+        -- Ação do botão "Teleporta" (Warn)
+        
+        -- 1. Envia a notificação "Teleportando.."
+        StarterGui:SetCore("SendNotification", {
+            Title = "Sean Scripts";
+            Text = "Teleportando..";
+            Duration = 5;
+        })
+
+        -- 2. Espera 2 segundos
+        wait(2)
+        
+        -- 3. Executa o comando warn() solicitado
+        --[[
+SEAN SCRIPTS - CREATE SERVER VIP [PREMIUM]
+]]
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Sean Scripts";
+    Text = "Teleportado !!!";
+    Duration = 5;
+})
+
+wait(2)
+local md5 = {}
+local hmac = {}
+local base64 = {}
+do
+	do
+		local T = {
+			3614090360,
+			3905402710,
+			606105819,
+			3250441966,
+			4118548399,
+			1200080426,
+			2821735955,
+			4249261313,
+			1770035416,
+			2336552879,
+			4294925233,
+			2304563134,
+			1804603682,
+			4254626195,
+			2792965006,
+			1236535329,
+			4129170786,
+			3225465664,
+			643717713,
+			3921069994,
+			3593408605,
+			38016083,
+			3634488961,
+			3889429448,
+			568446438,
+			3275163606,
+			4107603335,
+			1163531501,
+			2850285829,
+			4243563512,
+			1735328473,
+			2368359562,
+			4294588738,
+			2272392833,
+			1839030562,
+			4259657740,
+			2763975236,
+			1272893353,
+			4139469664,
+			3200236656,
+			681279174,
+			3936430074,
+			3572445317,
+			76029189,
+			3654602809,
+			3873151461,
+			530742520,
+			3299628645,
+			4096336452,
+			1126891415,
+			2878612391,
+			4237533241,
+			1700485571,
+			2399980690,
+			4293915773,
+			2240044497,
+			1873313359,
+			4264355552,
+			2734768916,
+			1309151649,
+			4149444226,
+			3174756917,
+			718787259,
+			3951481745
+		}
+		local function add(a, b)
+			local lsw = bit32.band(a, 65535) + bit32.band(b, 65535)
+			local msw = bit32.rshift(a, 16) + bit32.rshift(b, 16) + bit32.rshift(lsw, 16)
+			return bit32.bor(bit32.lshift(msw, 16), bit32.band(lsw, 65535))
+		end;
+		local function rol(x, n)
+			return bit32.bor(bit32.lshift(x, n), bit32.rshift(x, 32 - n))
+		end;
+		local function F(x, y, z)
+			return bit32.bor(bit32.band(x, y), bit32.band(bit32.bnot(x), z))
+		end;
+		local function G(x, y, z)
+			return bit32.bor(bit32.band(x, z), bit32.band(y, bit32.bnot(z)))
+		end;
+		local function H(x, y, z)
+			return bit32.bxor(x, bit32.bxor(y, z))
+		end;
+		local function I(x, y, z)
+			return bit32.bxor(y, bit32.bor(x, bit32.bnot(z)))
+		end;
+		function md5.sum(message)
+			local a, b, c, d = 1732584193, 4023233417, 2562383102, 271733878;
+			local message_len = #message;
+			local padded_message = message .. "\128"
+			while #padded_message % 64 ~= 56 do
+				padded_message = padded_message .. "\0"
+			end;
+			local len_bytes = ""
+			local len_bits = message_len * 8;
+			for i = 0, 7 do
+				len_bytes ..= string.char(bit32.band(bit32.rshift(len_bits, i * 8), 255))
+			end;
+			padded_message ..= len_bytes;
+			for i = 1, #padded_message, 64 do
+				local chunk = padded_message:sub(i, i + 63)
+				local X = {}
+				for j = 0, 15 do
+					local b1, b2, b3, b4 = chunk:byte(j * 4 + 1, j * 4 + 4)
+					X[j] = bit32.bor(b1, bit32.lshift(b2, 8), bit32.lshift(b3, 16), bit32.lshift(b4, 24))
+				end;
+				local aa, bb, cc, dd = a, b, c, d;
+				local s = {
+					7,
+					12,
+					17,
+					22,
+					5,
+					9,
+					14,
+					20,
+					4,
+					11,
+					16,
+					23,
+					6,
+					10,
+					15,
+					21
+				}
+				for j = 0, 63 do
+					local f, k, shift_index;
+					if j < 16 then
+						f = F(b, c, d)
+						k = j;
+						shift_index = j % 4
+					elseif j < 32 then
+						f = G(b, c, d)
+						k = (1 + 5 * j) % 16;
+						shift_index = 4 + (j % 4)
+					elseif j < 48 then
+						f = H(b, c, d)
+						k = (5 + 3 * j) % 16;
+						shift_index = 8 + (j % 4)
+					else
+						f = I(b, c, d)
+						k = (7 * j) % 16;
+						shift_index = 12 + (j % 4)
+					end;
+					local temp = add(a, f)
+					temp = add(temp, X[k])
+					temp = add(temp, T[j + 1])
+					temp = rol(temp, s[shift_index + 1])
+					local new_b = add(b, temp)
+					a, b, c, d = d, new_b, b, c
+				end;
+				a = add(a, aa)
+				b = add(b, bb)
+				c = add(c, cc)
+				d = add(d, dd)
+			end;
+			local function to_le_hex(n)
+				local s = ""
+				for i = 0, 3 do
+					s ..= string.char(bit32.band(bit32.rshift(n, i * 8), 255))
+				end;
+				return s
+			end;
+			return to_le_hex(a) .. to_le_hex(b) .. to_le_hex(c) .. to_le_hex(d)
+		end
+	end;
+	do
+		function hmac.new(key, msg, hash_func)
+			if #key > 64 then
+				key = hash_func(key)
+			end;
+			local o_key_pad = ""
+			local i_key_pad = ""
+			for i = 1, 64 do
+				local byte = (i <= #key and string.byte(key, i)) or 0;
+				o_key_pad ..= string.char(bit32.bxor(byte, 92))
+				i_key_pad ..= string.char(bit32.bxor(byte, 54))
+			end;
+			return hash_func(o_key_pad .. hash_func(i_key_pad .. msg))
+		end
+	end;
+	do
+		local b = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+		function base64.encode(data)
+			return ((data:gsub(".", function(x)
+				local r, b_val = "", x:byte()
+				for i = 8, 1, -1 do
+					r = r .. (b_val % 2 ^ i - b_val % 2 ^ (i - 1) > 0 and "1" or "0")
+				end;
+				return r
+			end) .. "0000"):gsub("%d%d%d?%d?%d?%d?", function(x)
+				if #x < 6 then
+					return ""
+				end;
+				local c = 0;
+				for i = 1, 6 do
+					c = c + (x:sub(i, i) == "1" and 2 ^ (6 - i) or 0)
+				end;
+				return b:sub(c + 1, c + 1)
+			end) .. ({
+				"",
+				"==",
+				"="
+			})[#data % 3 + 1])
+		end
+	end
+end;
+local function GenerateReservedServerCode(placeId)
+	local uuid = {}
+	for i = 1, 16 do
+		uuid[i] = math.random(0, 255)
+	end;
+	uuid[7] = bit32.bor(bit32.band(uuid[7], 15), 64)
+	uuid[9] = bit32.bor(bit32.band(uuid[9], 63), 128)
+	local firstBytes = ""
+	for i = 1, 16 do
+		firstBytes ..= string.char(uuid[i])
+	end;
+	local gameCode = string.format("%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x", table.unpack(uuid))
+	local placeIdBytes = ""
+	local pIdRec = placeId;
+	for _ = 1, 8 do
+		placeIdBytes ..= string.char(pIdRec % 256)
+		pIdRec = math.floor(pIdRec / 256)
+	end;
+	local content = firstBytes .. placeIdBytes;
+	local SUPERDUPERSECRETROBLOXKEYTHATTHEYDIDNTCHANGEEVERSINCEFOREVER = "e4Yn8ckbCJtw2sv7qmbg"
+	local signature = hmac.new(SUPERDUPERSECRETROBLOXKEYTHATTHEYDIDNTCHANGEEVERSINCEFOREVER, content, md5.sum)
+	local accessCodeBytes = signature .. content;
+	local accessCode = base64.encode(accessCodeBytes)
+	accessCode = accessCode:gsub("+", "-"):gsub("/", "_")
+	local pdding = 0;
+	accessCode, _ = accessCode:gsub("=", function()
+		pdding += 1;
+		return ""
+	end)
+	accessCode ..= tostring(pdding)
+	return accessCode, gameCode
+end;
+local accessCode, _ = GenerateReservedServerCode(game.PlaceId)
+setclipboard(`game.RobloxReplicatedStorage.ContactListIrisInviteTeleport:FireServer({game.PlaceId}, "", "{accessCode}")`)
+game.RobloxReplicatedStorage.ContactListIrisInviteTeleport:FireServer(game.PlaceId, "", accessCode)
+        
+    end
+end)
+
+-- IMPORTANTE: A sua GUI original terminava com "return G2L["ScreenGui_1"], require;".
+-- Em um executor, precisamos garantir que o ScreenGui esteja no local correto, o que já
+-- está definido na linha 10: Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")).
+-- Ao executar este script completo no seu executor, a GUI será criada e aparecerá na tela.
